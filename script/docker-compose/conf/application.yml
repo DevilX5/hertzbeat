@@ -35,6 +35,8 @@ spring:
       max-lifetime: 120000
   jpa:
     database: mysql
+    hibernate:
+      ddl-auto: update
 
   mail:
     # Attention: this is mail server address.
